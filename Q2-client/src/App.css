@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: white;
+}
+.App .container{
+  border: 2px solid black;
+  width:80%;
+  height: 700px;
+  margin-left: 180px;
+  overflow: scroll;
+  margin-top: 10px;
+  }
+  .App .container .colored{
+    display: flex;
+  }
+.App .container .colored:nth-child(odd){
+  background-color:pink;
+}
+.App .container .colored:nth-child(odd){
+  background-color:pink;
+}
+.App .container .colored:nth-child(even){
+  background-color:rgb(238, 90, 115);
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.low-style{
+  background-color:bisque;
+  display: grid;
+  grid-template-columns: repeat(2fr,200px);
+  color:brown;
+}
+button{
+  height: 20px;
+  width: 100px;
+  margin-top:80px;
+  margin-left: 50px;
+  background-color: rgb(90, 227, 90);
+  border: none;
+  border-radius: 20px;
+  
+}
